@@ -4,7 +4,7 @@ int main()
 {
     int Bintang;
     
-    cout << "Mauskan Tinggi Bintang: ";
+    cout << "Masukan Tinggi Bintang: ";
     cin >> Bintang;
         
     // ini dengan While bagian A

@@ -1,24 +1,17 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    int Bintang;
+
+int main(){
+    int a,b, bintang;
+    cout<<"Masukkan jumlah bintang : ";cin>>bintang;
     
-    cout << "Mauskan Tinggi Bintang: ";
-    cin >> Bintang;
-    
-    // ini dengan Nested Loop bagian D
-    cout << "Dengan Nested Loop\n";
-    
-    for(int i = 1; i <= Bintang; i++){
-    	for(int j = 1; j <= i; j++){
-    		cout << "*" ;
-		}
-		i++;
-		Bintang++;
-		cout << endl;
-	}
-    
-	cin.get();
-	return 0;    
+    // dengan Nested looping
+    cout << "Dengan Nested Looping\n";
+
+    for (a=1; a<=bintang; a++){
+        for (b=1; b<=a; b++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
 }
